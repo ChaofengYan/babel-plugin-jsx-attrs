@@ -1,3 +1,3 @@
 <div id="test" class="test">
-  <label for="test" class="test">Test</label>
+  <label for="test">Test</label>
 </div>

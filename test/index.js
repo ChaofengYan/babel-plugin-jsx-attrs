@@ -8,7 +8,7 @@ function trim(str) {
   return str.replace(/^\s+|\s+$/, '')
 }
 
-describe('Transforms "class" and "for" JSX attributes', function() {
+describe('Deal with "class" and "for" JSX attributes', function() {
   this.timeout(10000)
   var fixturesDir = path.join(__dirname, 'fixtures')
   fs.readdirSync(fixturesDir).map(function(caseName) {
@@ -20,7 +20,6 @@ describe('Transforms "class" and "for" JSX attributes', function() {
       var expected = fs.readFileSync(
         path.join(fixtureDir, 'expected.js')
       ).toString()
-
       assert.equal(trim(actual), trim(expected))
     })
   })

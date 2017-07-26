@@ -1,9 +1,9 @@
 React.createElement(
   "div",
-  { id: "test", className: "test" },
+  { id: "test", className: "prefix-test" },
   React.createElement(
     "label",
-    { htmlFor: "test", className: "test" },
+    { htmlFor: "test" },
     "Test"
   )
 );

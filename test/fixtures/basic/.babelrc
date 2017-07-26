@@ -1,4 +1,12 @@
 {
-  "plugins": ["../../../lib"],
+  "plugins": [
+    ["../../../lib",{
+      "for":"htmlFor",
+      "class":{
+        "name":"className",
+        "value":"prefix-{value}"
+      }
+    }]
+  ],
   "presets": ["react"]
 }

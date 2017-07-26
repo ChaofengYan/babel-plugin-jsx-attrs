@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-react-html-attrs",
-  "description": "Babel plugin which transforms HTML attributes in JSX to their React equivalents",
-  "version": "2.0.0",
+  "name": "babel-plugin-jsx-attrs",
+  "description": "Babel plugin which transforms attributes in JSX.",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -17,6 +17,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/insin/babel-plugin-react-html-attrs.git"
+    "url": "https://github.com/ChaofengYan/babel-plugin-jsx-attrs"
   }
 }
